@@ -1,7 +1,7 @@
 #TeamsCacheClear - Made by Andrea Robertsen
 #
 #Check if Teams process exists or is closed
-$title    = 'Teams cache clear'
+$title = 'Teams cache clear'
 $nl = [Environment]::NewLine
 
 $question = 'Do you wanna continue? Teams and Outlook will be restarted '
