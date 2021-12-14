@@ -1,9 +1,10 @@
-﻿#TeamsCacheClear - Made by Andrea Robertsen for Netcompany
+﻿#TeamsCacheClear - Made by Andrea Robertsen
+#
 #Check if Teams process exists or is closed
 $title    = 'Teams cache clear'
 $nl = [Environment]::NewLine
-$question = 'Do you wanna continue? Teams and Outlook will be restarted '
 
+$question = 'Do you wanna continue? Teams and Outlook will be restarted '
 $choices = New-Object Collections.ObjectModel.Collection[Management.Automation.Host.ChoiceDescription]
 $choices.Add((New-Object Management.Automation.Host.ChoiceDescription -ArgumentList '&Yes'))
 $choices.Add((New-Object Management.Automation.Host.ChoiceDescription -ArgumentList '&No'))
